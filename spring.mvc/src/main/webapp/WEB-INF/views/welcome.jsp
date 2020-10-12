@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Welcome To Spring MVC</h1>
-	<h2>${username }</h2>
+	${msg}
+	<h2>Name : ${user.getName()}</h2>
 </body>
 </html>
